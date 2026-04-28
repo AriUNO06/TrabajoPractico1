@@ -7,8 +7,11 @@ Este proyecto consiste en una página web de guías para League of Legends, dond
 ## Integrantes del equipo
 
 ### Ariel Martinez
+**Rol:**
 ### Matias Toledo
+**Rol:**
 ### Tamara Vila
+**Rol:**
 
 ## Tecnologías utilizadas
 
