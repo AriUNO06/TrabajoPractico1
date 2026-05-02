@@ -6,52 +6,177 @@
     <title>Runas - LoL Guide</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="runas-page">
     <header>
         <nav>
-            <h2> <img class="imagen1" src="imagenes/simbolo Lol.png"> LoL Guide</h2>
+            <h2> <img class="imagen1" src="imagenes/simbolo Lol.png" alt="Logo"> LoL Guide</h2>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="campeones.html">Campeones</a></li>
-                <li><a href="runas.html">Runas</a></li>
+                <li><a class="activo" href="runas.html">Runas</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>💎 Runas</h1>
-        
-        <div class="runas">
-            <div class="runa">
-                <h3>⚡ Electrocute</h3>
-                <p>Daño extra en 3 golpes</p>
-                <p><strong>Para:</strong> Ahri, Zed</p>
+    <main class="runas-main">
+        <section class="runas-hero">
+            <div class="runas-hero-content">
+                <h1>Runas</h1>
+                <p>
+                    Las runas te dan poder y ventajas únicas en cada partida.
+                    Elegí la mejor combinación para tu estilo de juego.
+                </p>
             </div>
+        </section>
 
-            <div class="runa">
-                <h3>🔥 Conqueror</h3>
-                <p>Stacks de daño prolongado</p>
-                <p><strong>Para:</strong> Yasuo, Darius</p>
-            </div>
+        <section class="runas-layout">
+            <div class="runas-column">
+                <h2>Árboles de Runas</h2>
 
-            <div class="runa">
-                <h3>🛡️ Aftershock</h3>
-                <p>Tanqueo después de CC</p>
-                <p><strong>Para:</strong> Leona, Ornn</p>
-            </div>
+                <div class="runas-grid">
+                    <article class="runa-card precision">
+    <h3 class="runa-titulo">
+        <img class="imagenPrecision" src="imagenes/precision.png" alt="Icono de Precisión">
+        <span>Precisión</span>
+    </h3>
+    <p class="runa-subtitle">Convierte tu daño en una ventaja constante.</p>
+    <ul>
+            <li>
+        <div class="runa-info">
+            <img src="imagenes/conquistador.png" alt="Conquistador" class="icono-runa-item">
+            <strong>Conquistador</strong>
         </div>
+        <span>Daño adaptable</span>
+    </li>
+    <li>
+        <div class="runa-info">
+            <img src="imagenes/triunfo.png" alt="Triunfo" class="icono-runa-item">
+            <strong>Triunfo</strong>
+        </div>
+        <span>Curación al eliminar</span>
+    </li>
+    <li>
+        <div class="runa-info">
+            <img src="imagenes/leyenda1.png" alt="Leyenda: Presteza" class="icono-runa-item">
+            <strong>Leyenda: Presteza</strong>
+        </div>
+        <span>Velocidad de ataque</span>
+    </li>
+    <li>
+        <div class="runa-info">
+            <img src="imagenes/golpe.png" alt="Golpe de Gracia" class="icono-runa-item">
+            <strong>Golpe de Gracia</strong>
+        </div>
+        <span>Más daño a enemigos bajos</span>
+    </li>
+    </ul>
+ </article>
 
-        <form class="formulario">
-            <h2>Consulta</h2>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Tu duda sobre runas..."></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+
+                    <article class="runa-card dominacion">
+                        <h3>Dominación</h3>
+                        <p class="runa-subtitle">Cazá y eliminá a tu presa rápido.</p>
+                        <ul>
+                            <li><strong>Electrocutar</strong><span>Daño explosivo</span></li>
+                            <li><strong>Sabor a Sangre</strong><span>Curación al dañar</span></li>
+                            <li><strong>Colección de Globos Oculares</strong><span>Daño adaptable</span></li>
+                            <li><strong>Cazador Definitivo</strong><span>Menos enfriamiento</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="runa-card brujeria">
+                        <h3>Brujería</h3>
+                        <p class="runa-subtitle">Potenciá habilidades y poke a distancia.</p>
+                        <ul>
+                            <li><strong>Cometa Arcano</strong><span>Daño por habilidad</span></li>
+                            <li><strong>Cinta de Flujo de Maná</strong><span>Más maná máximo</span></li>
+                            <li><strong>Trascendencia</strong><span>Aceleración de habilidad</span></li>
+                            <li><strong>Piromanía</strong><span>Más daño a bajos PV</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="runa-card valor">
+                        <h3>Valor</h3>
+                        <p class="runa-subtitle">Aguantá más y resistí mejor las peleas.</p>
+                        <ul>
+                            <li><strong>Demoler</strong><span>Mejor contra torres</span></li>
+                            <li><strong>Segundo Aire</strong><span>Regeneración de vida</span></li>
+                            <li><strong>Revestimiento de Huesos</strong><span>Reduce daño recibido</span></li>
+                            <li><strong>Sobrecrecimiento</strong><span>Más vida permanente</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="runa-card inspiracion">
+                        <h3>Inspiración</h3>
+                        <p class="runa-subtitle">Opciones flexibles para sacar ventaja.</p>
+                        <ul>
+                            <li><strong>Calzado Mágico</strong><span>Botas gratis</span></li>
+                            <li><strong>Entrega de Galletas</strong><span>Regeneración de maná</span></li>
+                            <li><strong>Perspicacia Cósmica</strong><span>Menos enfriamientos</span></li>
+                            <li><strong>Velocidad de Acercamiento</strong><span>Más movilidad</span></li>
+                        </ul>
+                    </article>
+                </div>
+
+                <h2>Combinaciones Populares</h2>
+                <div class="combinaciones-grid">
+                    <article class="combo-card">
+                        <span class="combo-icon">⚔️</span>
+                        <h3>Conquistador + Inspiración</h3>
+                        <p>Equilibrado</p>
+                    </article>
+
+                    <article class="combo-card">
+                        <span class="combo-icon">💥</span>
+                        <h3>Electrocutar + Brujería</h3>
+                        <p>Burst</p>
+                    </article>
+
+                    <article class="combo-card">
+                        <span class="combo-icon">🛡️</span>
+                        <h3>Conquistador + Valor</h3>
+                        <p>Lucha</p>
+                    </article>
+
+                    <article class="combo-card">
+                        <span class="combo-icon">✨</span>
+                        <h3>Cometa Arcano + Inspiración</h3>
+                        <p>Poke</p>
+                    </article>
+
+                    <article class="combo-card">
+                        <span class="combo-icon">🌪️</span>
+                        <h3>Fase Velocidad + Inspiración</h3>
+                        <p>Movilidad</p>
+                    </article>
+                </div>
+            </div>
+
+            <aside class="runas-sidebar">
+                <div class="info-card">
+                    <h3>⭐ ¿Qué son las Runas?</h3>
+                    <p>
+                        Las runas son mejoras permanentes que te permiten personalizar a tu campeón
+                        y adaptarte a cada partida. Podés combinar runas principales y secundarias
+                        para potenciar tu estilo de juego.
+                    </p>
+                    <a href="#">Más información →</a>
+                </div>
+
+                <div class="info-card">
+                    <h3>💡 Consejos</h3>
+                    <ul class="tips-list">
+                        <li>Adaptá tus runas al campeón y la composición enemiga.</li>
+                        <li>Probá distintas combinaciones según la línea.</li>
+                        <li>Las runas pueden marcar la diferencia en tu partida.</li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
     </main>
 
     <footer>
-        <p>© 2024 LoL Guide - Trabajo Práctico PW1</p>
+        <p>© 2026 LoL Guide - Trabajo Práctico PW1</p>
     </footer>
 </body>
 </html>
