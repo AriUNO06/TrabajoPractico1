@@ -523,7 +523,7 @@ body.runas-page main {
 }
 
 .precision { border-top-color: #d4a64a; }
-.dominacion { border-top-color: #ff5b5b; }
+.domination { border-top-color: #ff5b5b; }
 .brujeria { border-top-color: #6e66ff; }
 .valor { border-top-color: #57c46b; }
 .inspiracion { border-top-color: #50c9db; }
@@ -678,4 +678,114 @@ body.runas-page main {
     height: 24px;
     object-fit: contain;
     border-radius: 4px;
+}
+
+.imagenDominacion{
+    width: 32px; 
+    height: 32px; 
+    object-fit: contain;
+    display: block;
+}
+
+.domination .runa-titulo{
+    color: #d84b4b;
+}
+
+.imagenBrujeria {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+}
+
+.brujeria .runa-titulo {
+    color: #4ea3ff;
+}
+
+.imagenValor {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+}
+
+.valor .runa-titulo {
+    color: #5ac46b;
+}
+
+.imagenInspiracion {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    display: block;
+}
+
+.inspiracion .runa-titulo {
+    color: #55cfd8;
+}
+
+.combinaciones-populares {
+  padding: 30px 10%;
+  color: #fff;
+  background-color: #0b1120;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.combinaciones-populares h2 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.combinaciones-grid {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.combo-card {
+  background-color: #161b2f;
+  border-radius: 12px;
+  padding: 15px 20px;
+  width: 190px;
+  box-shadow: 0 0 15px rgb(200 170 110 / 0.25);
+  text-align: center;
+  cursor: default;
+}
+
+.combo-card:hover {
+  box-shadow: 0 0 25px rgb(200 170 110 / 0.5);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.combo-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.combo-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: #f0e6c8;
+}
+
+.combo-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #9bb0d3;
+}
+
+.precision .runa-titulo {
+    color: #eecd69 ;
 }
