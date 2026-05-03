@@ -11,9 +11,9 @@ En el desarrollo del presente proyecto, se estableció una división de tareas o
 ### Ariel Martinez
 **Rol:** Se desempeñó en el desarrollo, estructuración y estilización de la sección correspondiente a Runas, implementando soluciones en HTML y CSS que garantizan una correcta organización del contenido y una presentación visual adecuada.
 ### Matias Toledo
-**Rol:**Fue responsable del diseño y desarrollo de la página de Inicio, abordando tanto la estructura como los estilos en HTML y CSS, con especial énfasis en la experiencia de usuario, la accesibilidad y la coherencia visual del sitio.
+**Rol:** Fue responsable del diseño y desarrollo de la página de Inicio, abordando tanto la estructura como los estilos en HTML y CSS, con especial énfasis en la experiencia de usuario, la accesibilidad y la coherencia visual del sitio.
 ### Tamara Vila
-**Rol:**Se encargó del desarrollo de la sección de Campeones, aplicando HTML y CSS para lograr una disposición clara de la información, así como una interfaz atractiva y funcional.
+**Rol:** Se encargó del desarrollo de la sección de Campeones, aplicando HTML y CSS para lograr una disposición clara de la información, así como una interfaz atractiva y funcional.
 
 Esta distribución de tareas permitió un trabajo colaborativo eficiente, favoreciendo la especialización de cada integrante y contribuyendo al cumplimiento de los objetivos del proyecto.
 
