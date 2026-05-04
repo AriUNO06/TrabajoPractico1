@@ -787,6 +787,26 @@ body.runas-page main {
     color: #eecd69 ;
 }
 
+/* IMAGENES DE CAMPEONES */
+
+.campeon {
+    background-color: #16213e;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.campeon img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.info-campeon {
+    padding: 20px;
+}
+
 /* FOOTER */
 .footer {
   background: linear-gradient(to top, #0a0f1c, #0d1629);
