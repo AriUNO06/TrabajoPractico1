@@ -931,6 +931,320 @@ body.runas-page main {
 }
 
 /* =============================
+   TIENDA Y CARRITO
+============================= */
+.tienda-section {
+    background: #0f172a;
+    border: 1px solid rgba(193, 155, 55, 0.25);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+
+.tienda-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.tienda-header h2 {
+    color: #f5c542;
+    margin: 0.2rem 0 0.6rem;
+}
+
+.tienda-header p {
+    color: #b7c0df;
+    margin: 0;
+}
+
+.tienda-etiqueta {
+    color: #c19b37;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.moneda-control {
+    display: grid;
+    gap: 0.5rem;
+    min-width: 210px;
+    color: #f5c542;
+    font-weight: bold;
+}
+
+.moneda-control select,
+.filtros input,
+.filtros select {
+    border: 2px solid #c19b37;
+    border-radius: 5px;
+    background: #11182b;
+    color: white;
+    padding: 0.8rem;
+}
+
+.tienda-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.producto-card {
+    position: relative;
+    background: #16213e;
+    border-left: 5px solid #c19b37;
+    border-radius: 10px;
+    padding: 1.3rem;
+}
+
+.producto-card h3 {
+    color: #f5c542;
+    margin-top: 0.6rem;
+}
+
+.producto-card p {
+    color: #c9d2ff;
+}
+
+.descuento {
+    display: inline-block;
+    background: #1f8f5f;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 0.25rem 0.7rem;
+    font-size: 0.78rem;
+    font-weight: bold;
+}
+
+.precio {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.agregar-carrito,
+.info-campeon button,
+.boton-secundario {
+    background-color: #c19b37;
+    color: black;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.agregar-carrito:hover,
+.info-campeon button:hover {
+    background-color: #ffd700;
+}
+
+.carrito-panel {
+    background: #11182b;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 1.2rem;
+    position: sticky;
+    top: 1rem;
+}
+
+.carrito-panel h3 {
+    color: #f5c542;
+    margin-top: 0;
+}
+
+.carrito-lista {
+    display: grid;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.carrito-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+    background: #0b0f1a;
+    border-radius: 8px;
+    padding: 0.75rem;
+}
+
+.carrito-item p {
+    margin: 0;
+}
+
+.carrito-item span,
+.carrito-vacio {
+    color: #a0a6b1;
+}
+
+.quitar-item {
+    background: transparent;
+    border: 1px solid #c19b37;
+    color: #f5c542;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 32px;
+}
+
+.codigo-descuento {
+    background: #0b0f1a;
+    border-radius: 8px;
+    padding: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.codigo-descuento label {
+    display: block;
+    color: #f5c542;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.codigo-descuento-control {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+}
+
+.codigo-descuento input {
+    min-width: 0;
+    border: 1px solid #c19b37;
+    border-radius: 5px;
+    background: #11182b;
+    color: #ffffff;
+    padding: 0.7rem;
+}
+
+.codigo-descuento button {
+    background: #c19b37;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.7rem 0.9rem;
+}
+
+.codigo-descuento button:hover {
+    background: #ffd700;
+}
+
+#mensaje-codigo {
+    color: #57c46b;
+    font-size: 0.9rem;
+    margin: 0.6rem 0 0;
+    min-height: 1.1rem;
+}
+
+.carrito-resumen {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 0.8rem 0;
+    margin-bottom: 1rem;
+}
+
+.carrito-resumen p {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.carrito-total {
+    color: #f5c542;
+    font-size: 1.1rem;
+}
+
+.boton-secundario {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #c19b37;
+    color: #f5c542;
+    margin-bottom: 0.7rem;
+}
+
+.carrito-panel .boton {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.mensaje-compra {
+    color: #57c46b;
+    min-height: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* =============================
+   MODAL DE CAMPEONES
+============================= */
+.modal-campeon {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    z-index: 20;
+}
+
+.modal-campeon.activo {
+    display: flex;
+}
+
+.modal-contenido {
+    position: relative;
+    width: min(520px, 100%);
+    background: #11182b;
+    border: 1px solid #c19b37;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+}
+
+.modal-contenido h2 {
+    color: #f5c542;
+    margin-top: 0;
+}
+
+.modal-rol {
+    color: #c19b37;
+    font-weight: bold;
+}
+
+.modal-detalles {
+    background: #0b0f1a;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.cerrar-modal {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid #c19b37;
+    background: transparent;
+    color: #f5c542;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* =============================
    RESPONSIVE PARA TABLETS Y CELULARES
 ============================= */
 
@@ -1306,6 +1620,32 @@ img {
         width: 100%;
         max-width: 300px;
     }
+
+    .tienda-section {
+        padding: 1.2rem;
+    }
+
+    .tienda-header,
+    .tienda-layout {
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+
+    .moneda-control {
+        min-width: 100%;
+    }
+
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .carrito-panel {
+        position: static;
+    }
+
+    .modal-contenido {
+        padding: 1.5rem;
+    }
 }
 
 
@@ -1420,3 +1760,4 @@ img {
         font-size: 12px;
     }
 }
+
