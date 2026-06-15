@@ -9,7 +9,7 @@ Este proyecto consiste en una página web de guías para League of Legends, dond
 En el desarrollo del presente proyecto, se estableció una división de tareas orientada a optimizar la organización, la eficiencia y la calidad del producto final. Cada integrante asumió responsabilidades específicas dentro del proceso de maquetación y desarrollo web utilizando HTML y CSS.
 
 ### Ariel Martinez
-**Rol:** Se desempeñó en el desarrollo, estructuración y estilización de la sección correspondiente a Runas, implementando soluciones en HTML y CSS que garantizan una correcta organización del contenido y una presentación visual adecuada.
+**Rol:** Se desempeñó en el desarrollo, estructuración y estilización de la sección correspondiente a Runas, implementando soluciones en HTML , CSS y JavaScript que garantizan una correcta organización del contenido y una presentación visual adecuada.
 ### Matias Toledo
 **Rol:** Fue responsable del diseño y desarrollo de la página de Inicio, abordando tanto la estructura como los estilos en HTML y CSS, con especial énfasis en la experiencia de usuario, la accesibilidad y la coherencia visual del sitio.
 ### Tamara Vila
@@ -23,7 +23,8 @@ Esta distribución de tareas permitió un trabajo colaborativo eficiente, favore
 - CSS
 - Git
 - GitHub
+- JavaScript
 
 ## Estado del proyecto
 
-Actualmente el proyecto se encuentra en desarrollo.
+Actualmente el proyecto se encuentra terminado.
