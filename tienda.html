@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - LoL Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>
+                <img class="imagen1" src="imagenes/simbolo Lol.png" alt="Logo">
+                LoL Guide
+            </h2>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="campeones.html">Campeones</a></li>
+                <li><a href="runas.html">Runas</a></li>
+                <li><a class="activo" href="tienda.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tienda" class="tienda-section">
+            <div class="tienda-header">
+                <div>
+                    <p class="tienda-etiqueta">Tienda interactiva</p>
+                    <h2>Riot Points y paquetes de skins</h2>
+                    <p>Elegi tus productos, revisa descuentos y cambia el total entre pesos argentinos y dolares.</p>
+                </div>
+
+                <label class="moneda-control" for="selector-moneda">
+                    Moneda
+                    <select id="selector-moneda">
+                        <option value="ARS">Pesos argentinos</option>
+                        <option value="USD">Dolares</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="tienda-layout">
+                <div class="productos-grid">
+                    <article class="producto-card">
+                        <span class="descuento">10% OFF</span>
+                        <h3>650 Riot Points</h3>
+                        <p>Pack inicial para desbloquear contenido rapido.</p>
+                        <p class="precio" data-precio="5200">$5.200 ARS</p>
+                        <button class="agregar-carrito" data-nombre="650 Riot Points" data-precio="5200">Agregar</button>
+                    </article>
+
+                    <article class="producto-card">
+                        <span class="descuento">15% OFF</span>
+                        <h3>1380 Riot Points</h3>
+                        <p>Buena opcion para skins clasicas y chromas.</p>
+                        <p class="precio" data-precio="9800">$9.800 ARS</p>
+                        <button class="agregar-carrito" data-nombre="1380 Riot Points" data-precio="9800">Agregar</button>
+                    </article>
+
+                    <article class="producto-card">
+                        <span class="descuento">20% OFF</span>
+                        <h3>Pack Skin Epica</h3>
+                        <p>Incluye una skin epica y bonus de esencia naranja.</p>
+                        <p class="precio" data-precio="14500">$14.500 ARS</p>
+                        <button class="agregar-carrito" data-nombre="Pack Skin Epica" data-precio="14500">Agregar</button>
+                    </article>
+
+                    <article class="producto-card">
+                        <span class="descuento">25% OFF</span>
+                        <h3>Pack Legendario</h3>
+                        <p>Skin legendaria, icono exclusivo y 500 RP extra.</p>
+                        <p class="precio" data-precio="23500">$23.500 ARS</p>
+                        <button class="agregar-carrito" data-nombre="Pack Legendario" data-precio="23500">Agregar</button>
+                    </article>
+                </div>
+
+                <aside class="carrito-panel">
+                    <h3>Carrito</h3>
+
+                    <div id="carrito-lista" class="carrito-lista">
+                        <p class="carrito-vacio">Todavia no agregaste productos.</p>
+                    </div>
+
+                    <div class="carrito-resumen">
+                        <p>Subtotal <strong id="carrito-subtotal">$0 ARS</strong></p>
+                        <p>Descuento <strong id="carrito-descuento">-$0 ARS</strong></p>
+                        <p class="carrito-total">Total <strong id="carrito-total">$0 ARS</strong></p>
+                    </div>
+
+                    <button id="vaciar-carrito" class="boton-secundario" type="button">Vaciar carrito</button>
+                    <button id="finalizar-compra" class="boton" type="button">Finalizar compra</button>
+                    <p id="mensaje-compra" class="mensaje-compra"></p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>
+                    <img class="imagen1" src="imagenes/simbolo Lol.png" alt="Logo">
+                    LoL Guide
+                </h3>
+                <p>Tu plataforma integral de informacion sobre League of Legends, con contenido actualizado, guias especializadas y recursos pensados para jugadores de todos los niveles.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="campeones.html">Campeones</a></li>
+                    <li><a href="runas.html">Runas</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Autores :</h4>
+                <div class="socials">
+                    <li>Toledo Matias</li><br>
+                    <li>Martinez Ariel</li><br>
+                    <li>Vila Tamara</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 LoL Guide - Trabajo Practico PW1</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
